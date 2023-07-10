@@ -1,0 +1,37 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+}
+.btn{
+  margin-top: 1rem;
+  border: none;
+  background-color: blue;
+  padding: 0.5rem 1.9rem;
+  color: #fff;
+  box-shadow: 0px 4px 5px #111;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.form-group{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.form-group input,
+.form-group textarea,
+.form-group select{
+  border: 1px dotted black;
+  border-radius: 0.3rem;
+  padding: 0.3rem;
+  font-size: 1rem;
+}
+
+.form-group label{
+  margin-bottom: 0.2rem;
+}
+
+
